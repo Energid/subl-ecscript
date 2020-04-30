@@ -50,6 +50,7 @@ License
 Version History
 ---------------
 
+* v1.1 (2020-04-30) Deprecated `pose_seq` and `interp_pos_seq` commands.
 * v1.0 (2020-04-08) Initial release
 
 [1]: https://github.com/Energid/subl-ecscript
