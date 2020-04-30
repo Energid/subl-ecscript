@@ -78,11 +78,11 @@ contexts:
       scope: invalid.deprecated.ecscript
 
     # command (Actin Core)
-    - match: '\b(attach_manip|detach_manip|enable_joint_limits|disable_joint_limits|include_collision|exclude_collision|include_attach_collision|exclude_attach_collision|check_collision|find_solution|pose_seq|interp_pos_seq|move_pose|move_pose_rel|move_joint|move_joint_mix|move_joint_rel|move_circular|move_linear|move_helical|move_path|rrt_plan|set_base_accel_factor|set_base_speed_factor|set_control_description|set_ee_set|set_elem_of|set_named_frame|set_pcs|set_position_control_method|set_position_state|set_sensed_state|set_tcp|set_tool_offset|speed|stop|profile_joint|profile_pose)\b'
+    - match: '\b(attach_manip|detach_manip|enable_joint_limits|disable_joint_limits|include_collision|exclude_collision|include_attach_collision|exclude_attach_collision|check_collision|find_solution|move_pose|move_pose_rel|move_joint|move_joint_mix|move_joint_rel|move_circular|move_linear|move_helical|move_path|rrt_plan|set_base_accel_factor|set_base_speed_factor|set_control_description|set_ee_set|set_elem_of|set_named_frame|set_pcs|set_position_control_method|set_position_state|set_sensed_state|set_tcp|set_tool_offset|speed|stop|profile_joint|profile_pose)\b'
       scope: variable.language.ecscript
 
     # deprecated command (Actin Core)
-    - match: '\b(set_acd|set_apcm|set_baf|set_bsp)\b'
+    - match: '\b(pose_seq|interp_pos_seq|set_acd|set_apcm|set_baf|set_bsp)\b'
       scope: invalid.deprecated.ecscript
 
     # assertion
