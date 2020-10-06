@@ -50,6 +50,7 @@ License
 Version History
 ---------------
 
+* v2.0 (2020-10-06) Updated syntax for Actin 6.0 release.
 * v1.1 (2020-04-30) Deprecated `pose_seq` and `interp_pos_seq` commands.
 * v1.0 (2020-04-08) Initial release
 
