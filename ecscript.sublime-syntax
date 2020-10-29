@@ -106,7 +106,7 @@ contexts:
       scope: variable.language.ecscript
 
     # parameter name (Actin Core)
-    - match: '\b(?:AccelerationFactor|AssertTolerance|Cache(?:Cost|NumWaypoints|Threshold)|Collision(?:StepSize|Threshold)|InitialPosition|MaxTime|PathShortening(?:Iterations|Tolerance)|SpeedFactor|StepSize|Tolerance|Attach(?:Exclusion|Placement))\b'
+    - match: '\b(?:BORDER|CNA|AccelerationFactor|AssertTolerance|Cache(?:Cost|NumWaypoints|Threshold)|Collision(?:StepSize|Threshold)|InitialPosition|MaxTime|PathShortening(?:Iterations|Tolerance)|SpeedFactor|StepSize|Tolerance|Attach(?:Exclusion|Placement))\b'
       scope: support.constant.ecscript
 
     # parameter name (Actin RCF)
@@ -118,11 +118,11 @@ contexts:
       scope: support.constant.ecscript
 
     # constants (verbal)
-    - match: '\b(?:TRUE|FALSE|BASE)\b'
+    - match: '\b(?:TRUE|FALSE|BASE|INF)\b'
       scope: constant.numeric.ecscript
 
     # constants (non-verbal)
-    - match: '\b(?:0x[0-9a-fA-F]+|-?(?:\.[0-9]+|[0-9]+(?:\.[0-9]*)?)(?:[Ee]-?[0-9]+)?(?:deg|in|mm?|rad)?)\b'
+    - match: '\b(?:0x[0-9a-fA-F]+)\b|(?<![A-Za-z_])(?:-?(?:\.[0-9]+|[0-9]+(?:\.[0-9]*)?)(?:[Ee]-?[0-9]+)?(?:deg|g|in|kg|mm?|rad)?)\b'
       scope: constant.numeric.ecscript
 
     # deprepcated constants (verbal)
